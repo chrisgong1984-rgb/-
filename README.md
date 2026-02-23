@@ -1,11 +1,42 @@
-<div align="center">
+# Tina Dawn of Dead - Zombie Defense Game
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A horrifying Resident Evil-inspired tower defense game built with React, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## 🧟 Features
+- **20 Waves of Survival**: Face increasingly difficult hordes of the living dead.
+- **Elite Enemies**: Encounter powerful elite zombies with high health and unique visuals.
+- **Black Market Shop**: Spend your "Executions" on upgrades like camp fortification, hiring personnel, and weapon enhancements.
+- **Destructible Walls**: Build and repair defensive walls to slow down the horde.
+- **Armed Personnel**: Defend your position with realistic armed soldiers.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Deployment to Vercel
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+To deploy this game to Vercel via GitHub:
 
-</div>
+1. **Create a GitHub Repository**:
+   - Go to [github.com/new](https://github.com/new) and create a new repository.
+   - Follow the instructions to push your local code to the repository.
+
+2. **Connect to Vercel**:
+   - Go to [vercel.com](https://vercel.com) and log in.
+   - Click **"Add New"** > **"Project"**.
+   - Import your GitHub repository.
+   - Vercel will automatically detect the Vite configuration.
+   - **Environment Variables**: If you use the Gemini AI features, go to the **Settings** tab in Vercel, select **Environment Variables**, and add `GEMINI_API_KEY`.
+   - Click **"Deploy"**.
+
+## 🛠️ Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📄 License
+This project is licensed under the Apache-2.0 License.
